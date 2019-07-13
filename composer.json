@@ -1,0 +1,12 @@
+{
+    "name": "leonardob.tosin/blog",
+    "description": "My personal blog",
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "TheLe0",
+            "email": "leob.tosin@hotmail.com"
+        }
+    ],
+    "require": {}
+}

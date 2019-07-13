@@ -12,3 +12,7 @@ composer.lock
 out/
 .idea_modules/
 .vscode/
+
+
+# Packages
+/vendor/
