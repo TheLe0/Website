@@ -8,5 +8,7 @@
             "email": "leob.tosin@hotmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "vlucas/phpdotenv": "@stable"
+    }
 }
