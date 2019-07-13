@@ -1,31 +1,11 @@
 # OS generated files
 .DS_STORE
 
-# DBs
-/db/*.sqlite3
-/db/*.sqlite3-journal
-*.db
-
 # Locks
-Gemfile.lock
-package.lock.json
 composer.lock
-
-# Ruby, RVM and rbenv
-.ruby-version
-.ruby-gemset
-.rvmrc
 
 # ENVs 
 .env
-.powenv
-
-# Runtime data
-pids
-*.pid
-*.seed
-*.pid.lock
-
 
 # RubyMine IDE
 .idea/
