@@ -1,6 +1,9 @@
 <?php
 
     namespace src\DAO {
+
+        use src\Util\Bind;
+        
         class MyPDO extends PDO {
 
             protected $sql;
@@ -15,7 +18,7 @@
              * @param string $password - database password
              * @param array $options - associative array of connection options
              */
-            public function __construct($dsn, $user, $password, $options = array())
+            public function __construct()
             {
                 require_once 'global/ErrorHandler.php';
                 ErrorHandler::defineServerEnv();
@@ -29,7 +32,7 @@
                 );
 
                 try {
-                    parent::__construct($dsn, $user, $password, $defaults);
+                    parent::__construct(Bind::get('host'), Bind::get('db_user'), Bind::get('db_senha'), $defaults);
                     if ($this && !empty($options) && is_array($options)) {
                         foreach ($options as $key => $value) {
                             $this->setAttribute($key, $value);
