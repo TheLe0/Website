@@ -4,7 +4,7 @@ Meu blog pessoal
 
 
 # Instalando
-Deve ser criado arquivo 
+Deve ser criado na espinha do projeto um arquivo 
 
 ```shell
 .env
