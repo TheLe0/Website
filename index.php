@@ -1,3 +1,3 @@
 <?php
 
-    include('enviroment.php');
+    include('bootstrap.php');
