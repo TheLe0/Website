@@ -1,0 +1,22 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Meu blog pessoal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheLe0/blog.git"
+  },
+  "author": "TheLe0",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheLe0/blog/issues"
+  },
+  "homepage": "https://github.com/TheLe0/blog#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0"
+  }
+}

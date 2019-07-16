@@ -2,7 +2,7 @@
 .DS_STORE
 
 # Locks
-composer.lock
+package-lock.json
 
 # ENVs 
 .env
