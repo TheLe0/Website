@@ -5,6 +5,9 @@ const express = require('express');
 
 const app = express();
 
+app.set('view engine', 'hbs');
+app.use(express.static(`${__dirname}/public`));
+
 mariadb.createConnection({
   user: process.env.DB_USER,
   password: process.env.DB_SENHA,
@@ -18,7 +21,7 @@ app.get('/', (req, res) => {
   });
 });
 
-app.listen(3000, () => {
+app.listen(process.env.PORT, () => {
   // eslint-disable-next-line no-console
-  console.log('Servidor subiu na porta 3000');
+  console.log(`Servidor subiu na porta ${process.env.PORT}`);
 });
