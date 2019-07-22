@@ -23,10 +23,6 @@
     "nodemailer": "^6.3.0"
   },
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-imagemin": "^6.0.0",
-    "gulp-jsmin": "^0.1.5",
-    "gulp-rename": "^1.4.0",
-    "gulp-uglifycss": "^1.1.0"
+    "typescript": "^3.5.3"
   }
 }
