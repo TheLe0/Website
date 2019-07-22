@@ -1,8 +1,7 @@
-require('dotenv').config();
-
 const express = require('express');
 
 const app = express();
+const porta = process.env.PORT || 8080;
 
 app.set('view engine', 'hbs');
 app.use(express.static('./public'));
@@ -14,7 +13,6 @@ app.get('/', (req, res) => {
   });
 });
 
-app.listen(process.env.PORT, () => {
-  // eslint-disable-next-line no-console
-  console.log(`Servidor subiu na porta ${process.env.PORT}`);
+app.listen(porta, () => {
+  console.log(`Servidor subiu na porta ${portas}`);
 });
