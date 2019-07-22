@@ -14,5 +14,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(porta, () => {
-  console.log(`Servidor subiu na porta ${portas}`);
+  console.log(`Servidor subiu na porta ${porta}`);
 });
