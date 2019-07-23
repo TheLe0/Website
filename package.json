@@ -19,11 +19,7 @@
   "homepage": "https://github.com/TheLe0/blog#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "hbs": "^4.0.4",
-    "i18n": "^0.8.3",
-    "nodemailer": "^6.3.0"
+    "hbs": "^4.0.4"
   },
-  "devDependencies": {
-    "typescript": "^3.5.3"
-  }
+  "devDependencies": {}
 }
