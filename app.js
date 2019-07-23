@@ -1,4 +1,10 @@
 const express = require('express');
+const i18n = require('i18n');
+
+i18n.configure({
+  locales:['en', 'pt-br'],
+  directory: __dirname + '/config/locales'
+});
 
 const app = express();
 const porta = process.env.PORT || 8080;
