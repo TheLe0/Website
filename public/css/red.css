@@ -381,7 +381,6 @@ ul.works li img {
 
 ul.works li img:hover {
 	border:1px solid #803a3a;
-	cursor: pointer;
 }
 
 img.portrait {
@@ -729,4 +728,19 @@ label.error {
 	font-weight: normal;
 	margin-left:80px;
 	width:238px;
+}
+
+footer {
+	display: table;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header{
+	display: table;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 7px;
 }
