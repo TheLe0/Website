@@ -19,7 +19,7 @@
   "homepage": "https://leotosin.com.br/",
   "dependencies": {
     "express": "^4.17.1",
-    "hbs": "^4.0.4"
+    "hbs": "^4.1.1"
   },
   "devDependencies": {}
 }
