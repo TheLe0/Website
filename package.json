@@ -1,7 +1,7 @@
 {
   "name": "blog",
   "version": "1.0.0",
-  "description": "Meu blog pessoal",
+  "description": "My CV website",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/TheLe0/blog/issues"
   },
-  "homepage": "https://github.com/TheLe0/blog#readme",
+  "homepage": "https://leotosin.com.br/",
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.0.4"
